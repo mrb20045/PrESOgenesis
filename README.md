@@ -1,10 +1,10 @@
-# PrOGEnesis
+# PrESOgenesis
 
 
 
 1) Introduction
 	     
-	     PrOSEgenesis is a  Support Vector Machine-based classifier  to predict the  
+	     PrESOgenesis is a  Support Vector Machine-based classifier  to predict the  
 	     
 	     spermatogenesis/embryogenesis/oogenesis  related  proteins  based on  1920  
 	     
@@ -12,7 +12,7 @@
 	     
 	     as  input,  and  generate  output  about  the potential of a protein to be 
 	     
-	     involved  in spermatogenesis/embryogenesis/oogenesis. PrOSEgenesis depends 
+	     involved  in spermatogenesis/embryogenesis/oogenesis. PrESOgenesis depends 
 	     
 	     on  two programs (libsvm and protr  package in R) and can be run on Linux. 
 	     
@@ -52,17 +52,17 @@
 	     
 4) Run PrOSEgenesis	     
 	     	     
-	     		$ /full/path/to/PrOSEgenesis    /full/path/to/Candidates.fa
+	     		$ /full/path/to/PrESOgenesis    /full/path/to/Candidates.fa
 	     
 
 
 5) Output
 
-		The results will be stored in PrOSEgenesis_resultss.txt. The score represents a 
+		The results will be stored in PrESOgenesis_resultss.txt. The score represents a 
 	
 		protein's probability of belonging to the  spermatogenesis/embryogenesis/oogenesis. 
 	
-		PrOSEgenesis applied  a probability  score  >0.5 to designate putative related protein.  
+		PrESOgenesis applied  a probability  score  >0.5 to designate putative related protein.  
 	
 	
 	
