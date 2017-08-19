@@ -47,8 +47,7 @@
 	    		
 	    		$ /full/path/to/install.sh
 			
-	    Note: Extract the Combine_Model.zip file in Model folder.
-	     
+	       
 	     
 	     
 4) Run PrOSEgenesis	     
@@ -59,11 +58,11 @@
 
 5) Output
 
-	The results will be stored in PrOSEgenesis_resultss.txt. The score represents a 
+		The results will be stored in PrOSEgenesis_resultss.txt. The score represents a 
 	
-	protein's probability of belonging to the  spermatogenesis/embryogenesis/oogenesis. 
+		protein's probability of belonging to the  spermatogenesis/embryogenesis/oogenesis. 
 	
-	PrOSEgenesis applied  a probability  score  >0.5 to designate putative related protein.  
+		PrOSEgenesis applied  a probability  score  >0.5 to designate putative related protein.  
 	
 	
 	
