@@ -1,13 +1,17 @@
 SHELL := /bin/bash
 
-all:
-	cd ./transdecoder_plugins/ && $(MAKE) all
+CDHIT="cd-hit-v4.6.1-2012-08-27"
+
+all: cdhit
+
+
+cdhit:
+	tar -xvf ${CDHIT}.tgz \
+	&& cd ${CDHIT} \
+    && $(MAKE) openmp=yes && $(MAKE) install PREFIX=../../util/bin
+	mv ${CDHIT} cdhit
+
 
 clean:
-	cd ./transdecoder_plugins/ && $(MAKE) clean
-	cd ./sample_data && ./cleanme.pl
-
-test:
-	cd ./sample_data/ && ./runMe.sh
-
-
+	rm -rf ./cdhit
+	rm -f ../util/bin/*
