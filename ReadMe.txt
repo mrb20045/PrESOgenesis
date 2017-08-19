@@ -71,8 +71,10 @@
 	    		$ chmod 777  /full/path/to/install.sh
 	    		
 	    		$ /full/path/to/install.sh
+	    		
+	    		
 	     
-	     
+	        
 	     
 4) Run PrOSEgenesis	     
 	     	     
