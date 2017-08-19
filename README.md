@@ -46,6 +46,8 @@
 	    		$ chmod 777  /full/path/to/install.sh
 	    		
 	    		$ /full/path/to/install.sh
+			
+	    Note: Extract the Combine_Model.zip file in Model folder.
 	     
 	     
 	     
