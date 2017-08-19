@@ -32,7 +32,19 @@ make       &> /dev/null
 
 cd ..
 
-chmod 777 $dir/PrOSEgenesis
+
+echo "_______________________"
+echo "Extracting the zip file "
+echo "_______________________"
+echo
+
+cd $dir/Model
+unzip $dir/Model/Combine_Model.zip  
+
+
+
+chmod 777 $dir/PrESOgenesis 
+
 chmod 777 -R  $dir/Scripts   $dir/Scripts/TransDecoder-3.0.1  $dir/Scripts/libsvm-3.22
 
 echo
