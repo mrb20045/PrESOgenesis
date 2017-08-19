@@ -39,9 +39,9 @@
              software and protr package.
              
 	     
-	     		$ gzip -dc PrOSEgenesis.tar.gz | tar x 
+	     		$ gzip -dc PrESOgenesis.tar.gz | tar x 
 	     
-	     		$ cd PrOSEgenesis
+	     		$ cd PrESOgenesis
 	     
 	    		$ chmod 777  /full/path/to/install.sh
 	    		
